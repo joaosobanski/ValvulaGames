@@ -1,0 +1,6 @@
+Domain/bin/*
+Domain/obj/*
+Tests/UnitTest/bin/*
+Tests/UnitTest/obj/*
+Tests/FactoryTest/bin/*
+Tests/FactoryTest/obj/*
