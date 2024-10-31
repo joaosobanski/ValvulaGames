@@ -1,4 +1,3 @@
-
 using Microsoft.Toolkit.Diagnostics;
 
 namespace ValvulaGames.Domain.Entity.Account;
@@ -36,4 +35,9 @@ public partial class Account
 
     public decimal Balance { get; private set; }
 
+    public ICollection<Library.Library>? Libraries { get; private set; }
+
+    public ICollection<Transaction> OwnerOfTransactions { get; private set; }
+
+    public ICollection<Transaction> Transactions { get; private set; }
 }
